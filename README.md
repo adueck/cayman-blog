@@ -1,5 +1,7 @@
 A [Jekyll](https://jekyllrb.com/) blog template made for simple, readable snippets of your brain drippings.
 
+[DEMO](http://adueck.github.io/cayman-blog/)
+
 To get this going follow these simple steps:
 
 1. Fork, clone, or download the repository
