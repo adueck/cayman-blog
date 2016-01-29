@@ -8,8 +8,8 @@
 # Site settings
 title: Your Blog Title
 description: '' # write a nice description for your blog
-baseurl: '/cayman-blog' # the subpath of your site, e.g. /blog
-url: 'http://adueck.github.io' # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
 twitter_username: 'twitter_username'
 
