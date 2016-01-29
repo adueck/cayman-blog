@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="main-content" itemprop="articleBody">
+
+  <header class="post-header">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h1 class="post-title" itemprop="name headline">  {{ post.title }}</h1> </a>
+
+  </header>
+
+    {{ post.content }}
+
+ <p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %} • <a href="{{ post.url | prepend: site.baseurl }}">permalink</a></p>
+
+  </div>
+
+</article>
+
+{% endfor %}
+
+<div class="pagination" style="text-align: center;">
+
+  {% if paginator.next_page %}
+    <h2><a href="{{ paginator.next_page_path }}" class="next">- more posts -</a></h2>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    <h2><a href="{{ paginator.previous_page_path }}" class="previous">- previous page -</a></h2>
+  {% endif %}
+
+</div>
