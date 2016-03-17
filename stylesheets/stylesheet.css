@@ -5,23 +5,22 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  color: #32383B; }
+  font-size: 16px;
+  line-height: 1.5;
+  color: #606c71; }
 
 a {
-  color: #62a2c9;
+  color: #1e6bb8;
   text-decoration: none; }
-
-a:hover {
-  text-decoration: underline; }
+  a:hover {
+    text-decoration: underline; }
 
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgb(92, 113, 134);
+  border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -57,9 +56,8 @@ a:hover {
 .page-header {
   color: #fff;
   text-align: center;
-  background: #56687C url('../img/cover.jpg') no-repeat 50%;
-  background-size: cover;
-}
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -76,18 +74,6 @@ a:hover {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem; }
-
-.header-link  {
-    color: rgba(255, 255, 255, 0.9);
-    text-decoration: none;
-    transition: 0.4s;
-}
-
-.header-link:hover {
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
-    transition: 0.3s;
-    text-decoration: none;
-}
 
 @media screen and (min-width: 64em) {
   .project-name {
@@ -126,8 +112,7 @@ a:hover {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #5F7585;
-}
+  color: #159957; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -184,7 +169,7 @@ a:hover {
 .main-content blockquote {
   padding: 0 1rem;
   margin-left: 0;
-  color: #5F6B70;
+  color: #819198;
   border-left: 0.3rem solid #dce6f0; }
   .main-content blockquote > :first-child {
     margin-top: 0; }
@@ -232,7 +217,7 @@ a:hover {
 
 @media screen and (max-width: 42em) {
   .main-content {
-    padding: 2rem 0.5rem;
+    padding: 2rem 1rem;
     font-size: 1rem; } }
 
 .site-footer {
@@ -258,29 +243,3 @@ a:hover {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-
-
-}
-
-.post-meta {
-    padding-left: 1.5rem;
-    padding-bottom: 0.5rem;
-    opacity: 0.8;
-}
-
-.post-title {
-  font-size: 1.85rem;
-}
-
-.post-header .post-link {
-  text-decoration: none;
-}
-
-.sharing-buttons {
-  padding-top: 25px;
-}
-
-@media screen and (min-width: 42em) {
-  .sharing-buttons {
-    max-width: 80%;
-    margin: 0 auto;} }
