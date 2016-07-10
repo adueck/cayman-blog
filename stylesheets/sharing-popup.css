@@ -1,0 +1,64 @@
+input[type=checkbox].smoosh:checked ~ label.overlay {
+	display: block;
+	z-index: 500;
+}
+
+div.overlay-dialogue {
+	position: relative;
+	display: none;
+/*	margin: 15% 0;*/
+	top: 15%;
+	bottom: 15%;
+	background: whitesmoke;
+
+  /* Rounded image corners */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+div.overlay-dialogue {
+	padding: 20pt 5% 20pt 5%;
+	overflow-y: auto;
+	animation: ANIM_NAME 0.5s ease-in-out;
+}
+
+/* ~ if in the same parent, there is a div of class overlay-dialogue */
+input[type=checkbox].smoosh:checked ~ div.overlay-dialogue {
+	display: block;
+	z-index: 505; /* way on top of the page */
+}
+
+/* eye candy */
+.smoosh {
+	display: none;  line-height: 0;  margin: 0;  padding: 0;
+	color: transparent;  background: transparent;  border: none;
+	outline: none;  height: 0;  width: 0;
+}
+
+@keyframes ANIM_NAME {
+	0% {transform: rotateY(55deg); opacity: 0;}
+	100% {transform: rotateY(0deg); opacity: 1;}
+}
+
+label.overlay {
+	position: fixed;
+	display: none;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+label.overlay {
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	color: rgba(200, 200, 200, 0.5);
+	line-height: 120%;
+}
+
+label.overlay:hover, label.overlay:active {  line-height: 120%;  color: darkgrey; }
+label.overlay:active {  line-height: 130%; }
+label {  line-height: 120%;  color: #5679a1; } 
+label:hover {  color: orangered; }
+label:active {  line-height: 90%;  color: orange; }
