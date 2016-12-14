@@ -16,7 +16,7 @@ twitter_username: 'twitter_username'
 # Build settings
 markdown: kramdown
 
-permalink: '/:https://glorija.github.io/cayman-blog/'
+permalink: '/:trampa/'
 
 gems: [jekyll-paginate]
 
