@@ -8,7 +8,7 @@
 # Site settings
 title: Electricity for beginners
 description: 'Here we show you how to be a stress-free' # Exchange the product without money
-baseurl: https://github.com/glorija/smallblog
+baseurl: https://glorija.github.io/smallblog/
 url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
 twitter_username: 'twitter_username'
