@@ -21,3 +21,7 @@ permalink: '/:trampa/'
 gems: [jekyll-paginate]
 
 paginate: 10
+
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
