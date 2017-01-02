@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Trampa
-description: '' # Exchange the product without money
-baseurl: https://glorija.github.io/cayman-blog/
+title: Electricity for beginners
+description: 'Here we show you how to be a stress-free' # Exchange the product without money
+baseurl: https://github.com/glorija/smallblog
 url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
 twitter_username: 'twitter_username'
@@ -16,7 +16,7 @@ twitter_username: 'twitter_username'
 # Build settings
 markdown: kramdown
 
-permalink: '/:trampa/'
+permalink: '/:title/'
 
 gems: [jekyll-paginate]
 
