@@ -11,17 +11,20 @@ description: 'Here we show you how to be a stress-free' # Exchange the product w
 baseurl: https://glorija.github.io/smallblog/
 url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
-twitter_username: 'twitter_username'
+twitter_username: 'twitter_elektroritrix'
 
 # Build settings
 markdown: kramdown
 
-permalink: '/:title/'
+permalink: '/:blogić/'
 
 gems: [jekyll-paginate]
 
 paginate: 10
 
+
 google_analytics: 
 show_downloads: true
+
+
 theme: jekyll-theme-cayman
