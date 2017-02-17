@@ -16,7 +16,7 @@ twitter_username: 'twitter_elektroritrix'
 # Build settings
 markdown: kramdown
 
-permalink: '/:blogić/'
+permalink: '/:blogic/'
 
 gems: [jekyll-paginate]
 
