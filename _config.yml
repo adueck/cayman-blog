@@ -11,13 +11,15 @@ description: '' # write a nice description for your blog
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
-twitter_username: 'twitter_username'
+twitter_username: 'twitter_elektroritrix'
 
 # Build settings
 markdown: kramdown
 
-permalink: '/:title/'
+permalink: '/:blogic/'
 
 gems: [jekyll-paginate]
 
 paginate: 10
+
+theme: jekyll-theme-cayman
