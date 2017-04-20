@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your Blog Title
-description: '' # write a nice description for your blog
+title: die-schwenks.de
+description: 'Tim, Marc, Tina und Alex' # write a nice description for your blog
 baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site http://www.example.com
+url: 'http://www.die-schwenks.de' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
-twitter_username: 'twitter_username'
+# twitter_username: 'twitter_username'
 
 # Build settings
 markdown: kramdown
